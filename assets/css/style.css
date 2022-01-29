@@ -1,6 +1,6 @@
 :root {
     --bg-pri: rgba(28, 233, 181, .7);
-    --bg-sec: #0097A7;
+    --bg-sec: rgba(0, 151, 167, .7);
 }
 
 *{
@@ -30,8 +30,7 @@ section {
 
 .img-cont{
     padding-top: 50vh;
-    background: linear-gradient(50deg, var(--bg-pri) 0%, var(--bg-pri) 50%, transparent 50%);
-    height: 100vh;
+    background: linear-gradient(45deg, var(--bg-pri) 0%, var(--bg-sec) 50%, transparent 50%);
 }
 
 #product_img{
@@ -63,5 +62,7 @@ section {
     opacity: 1;
 }
 
-
+.pres {
+    background: linear-gradient(-225deg, var(--bg-pri) 0%, var(--bg-sec) 50%, transparent 50%);
+}
 
