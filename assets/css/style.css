@@ -1,0 +1,67 @@
+:root {
+    --bg-pri: rgba(28, 233, 181, .7);
+    --bg-sec: #0097A7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: 'Courier Prime', monospace;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+
+section {
+    height: 100vh;
+    color: #ECEFF1;
+}
+
+.sec_one, .sec_two{
+    background-image: url("../img/background.png");
+}
+
+.img-cont{
+    padding-top: 50vh;
+    background: linear-gradient(50deg, var(--bg-pri) 0%, var(--bg-pri) 50%, transparent 50%);
+    height: 100vh;
+}
+
+#product_img{
+    max-height: 50vh;
+}
+
+.line {
+    border: 2px solid #fff;
+    background-color: #fff;
+    width: 1px;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.redes {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    text-align: center;
+}
+
+.redes li {
+    margin-top: 20px;
+}
+
+.num-act {
+    opacity: 1;
+}
+
+
+
