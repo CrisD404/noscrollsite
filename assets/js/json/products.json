@@ -1,13 +1,13 @@
 {
     "models": [
         {
-            "name": "Niki 1",
-            "desc": "The best",
+            "name": "Nike Air Presto",
+            "desc": "Las Zapatillas para mujer Nike W AIR PRESTO, eran originalmente un calzado de Running. Diseñados para que estés cómoda durante todo el día, este calzado es muy versátil, ya que podes usarlo en cualquier momento.",
             "img": "assets/img/nike0.png"
         },
         {
-            "name": "Niki 2",
-            "desc": "The best 2",
+            "name": "Air Jordan NRG sneakers",
+            "desc": "Air Jordan NRG sneakers en cuero de Nike X Off-White con puntera de almendra, cierre con agujetas en la parte delantera, plantilla con logo, acolchado en los tobillos, logo Nike y suela dentada de goma.",
             "img": "assets/img/nike1.png"
         },
         {
@@ -17,8 +17,8 @@
             "detail": "Los Nike Air force 1 (abreviados AF1) han tenido el mismo estilo parecido durante 25 años con cambios mínimos. El nombre es una referencia al avión Air Force One, el cual es el que se encarga de transportar al presidente de los Estados Unidos de América. Este calzado se encuentra en tres estilos diferentes: El estilo low-top, el mid-top, y el high-top (siendo este último el estilo original). Su clasificación se basa en la altura de calzado de la parte trasera y la lengüeta, además este zapato viene en diferentes formas, colores, patrones e inclusive hasta texturas. Los dos estilos más comunes del AF1 son los de color totalmente blanco, usado principalmente en la industria de la música, y los de color totalmente negro. Además este calzado es uno de los tenis con más variedad en el mercado de éstos contando con más de 2000 caras diferentes e inigualables."
         },
         {
-            "name": "Niki 4",
-            "desc": "The best 4",
+            "name": "Air Jordan 1",
+            "desc": "Tenis Air Jordan 1 de Nike x Off-White en cuero de color blanco, azul y naranja de Nike con puntera de almendra, agujetas en la parte delantera, logo Nike, detalles de cortes y suela de goma.",
             "img": "assets/img/nike3.png"
         }
     ]

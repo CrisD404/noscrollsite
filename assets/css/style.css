@@ -29,8 +29,7 @@ section {
 }
 
 .img-cont{
-    padding-top: 50vh;
-    background: linear-gradient(45deg, var(--bg-pri) 0%, var(--bg-sec) 50%, transparent 50%);
+    background: linear-gradient(to right top, var(--bg-pri) 0%, var(--bg-sec) 50%, transparent 50%);
 }
 
 #product_img{
@@ -42,20 +41,11 @@ section {
     background-color: #fff;
     width: 1px;
     height: 25vh;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
 }
 
-.redes {
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-    text-align: center;
-}
-
-.redes li {
-    margin-top: 20px;
+.arrow-icon{
+    animation: move 1.1s infinite ease-in-out;
 }
 
 .num-act {
@@ -63,6 +53,17 @@ section {
 }
 
 .pres {
-    background: linear-gradient(-225deg, var(--bg-pri) 0%, var(--bg-sec) 50%, transparent 50%);
+    background: linear-gradient(to right bottom, var(--bg-pri) 0%, var(--bg-sec) 50%, transparent 50%);
 }
 
+@keyframes move {
+    0%{
+        bottom:10px;
+    }
+    50%{
+        bottom:25px;
+    }
+    100%{
+        bottom:10px;
+    }
+  }

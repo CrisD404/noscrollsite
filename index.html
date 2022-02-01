@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,37 +9,48 @@
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital@1&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Nike</title>
 </head>
+
 <body>
     <main>
-        <section class="sec_one flex justify-center items-center relative">
-            <div class="w-1/2 h-screen img-cont text-center relative">
-                <ul class="absolute left-20 top-1/3 z-20 models">
-                    <li class="mb-5 "><i onclick="selectModel(0)" class="mdi mdi-numeric-1-box-outline text-5xl cursor-pointer opacity-50 num num-act"></i></li>
-                    <li class="mb-5 "><i onclick="selectModel(1)" class="mdi mdi-numeric-2-box-outline text-5xl cursor-pointer opacity-50 num"></i></li>
-                    <li class="mb-5 "><i onclick="selectModel(2)" class="mdi mdi-numeric-3-box-outline text-5xl cursor-pointer opacity-50 num"></i></li>
-                    <li class="mb-5 "><i onclick="selectModel(3)" class="mdi mdi-numeric-4-box-outline text-5xl cursor-pointer opacity-50 num"></i></li>
+        <section class="sec_one flex-col-reverse flex lg:flex-row justify-center items-center relative">
+            <div class="w-full h-1/2 lg:w-1/2 lg:h-screen img-cont relative flex justify-center items-center">
+                <ul class="absolute flex bottom-5 w-full justify-center models">
+                    <li class="mr-5 "><i onclick="selectModel(0)"
+                            class="mdi mdi-numeric-1-box-outline text-5xl cursor-pointer opacity-50 num num-act"></i>
+                    </li>
+                    <li class="mr-5 "><i onclick="selectModel(1)"
+                            class="mdi mdi-numeric-2-box-outline text-5xl cursor-pointer opacity-50 num"></i></li>
+                    <li class="mr-5 "><i onclick="selectModel(2)"
+                            class="mdi mdi-numeric-3-box-outline text-5xl cursor-pointer opacity-50 num"></i></li>
+                    <li class="mr-5 "><i onclick="selectModel(3)"
+                            class="mdi mdi-numeric-4-box-outline text-5xl cursor-pointer opacity-50 num"></i></li>
                 </ul>
-                <img class="absolute bottom-0 z-10" id="product_img" src="assets/img/nike0.png" alt="Foto del producto">     
+
+                <img class="lg:mt-72 max-w-md lg:max-w-xl mb-10 px-10 lg:mb-0 lg:px-0" id="product_img" src="assets/img/nike0.png" alt="Foto del producto">
+
             </div>
-            <div class="w-1/2">
-                <div class="max-w-md ml-20">
-                    <h1 id="product_title" class="text-5xl mb-3"></h1>
-                    <p id="product_desc" class="text-2xl text-zinc-100"></p>
+            <div class="w-full h-1/2 lg:h-screen flex items-center px-10 y-10 lg:w-1/2">
+                <div class="max-w-md mx-auto lg:ml-20">
+                    <h1 id="product_title" class="text-3xl md:text-4xl lg:text-5xl mb-3"></h1>
+                    <p id="product_desc" class="text-base md:text-lg lg:text-2xl text-zinc-100 md:pr-10"></p>
                 </div>
             </div>
-            <ul class="redes">
-                <li><a href="google.com"><i class="mdi mdi-instagram text-3xl"></i></a></li>
-                <li><a href="google.com"><i class="mdi mdi-facebook text-3xl"></i></a></li>
-                <li><a href="google.com"><i class="mdi mdi-linkedin text-3xl"></i></a></li>
-                <div class="line"></div>
+            <ul class="md:fixed top-2 md:top-auto flex md:bottom-0 md:right-5 md:text-center md:block w-full md:w-auto justify-center relative">
+                <div class="w-1/4 sm:w-1/3 h-1 bg-white absolute left-0 md:hidden mt-3 mr-5"></div>
+                <li class="md:my-3 mx-3 md:mx-0 my-0 overflow-hidden"><a href="google.com"><i class="mdi mdi-instagram text-3xl"></i></a></li>
+                <li class="md:my-3 mx-3 md:mx-0 my-0"><a href="google.com"><i class="mdi mdi-facebook text-3xl"></i></a></li>
+                <li class="md:my-3 mx-3 md:mx-0 my-0"><a href="google.com"><i class="mdi mdi-linkedin text-3xl"></i></a></li>
+                <div class="w-1/4 sm:w-1/3  h-1 bg-white absolute right-0 md:hidden mt-3"></div>
+                <div class="line hidden mx-auto md:block"></div>
             </ul>
-            <a href="#sec2" class="absolute bottom-10 text-7xl"><i class="mdi mdi-chevron-down"></i></a>
+            <a href="#sec2" class="absolute bottom-10 text-7xl arrow-icon hidden lg:block"><i class="mdi mdi-chevron-down"></i></a>
         </section>
-        
+
         <section id="sec2" class="sec_two flex justify-center items-center">
             <div class="w-1/2 h-screen pres">
             </div>
@@ -50,4 +62,5 @@
 
     <script src="assets/js/index.js"></script>
 </body>
+
 </html>
